@@ -1,0 +1,30 @@
+{
+  "name": "osquery-rest-adapter",
+  "version": "0.0.0",
+  "description": "Visualize information about your OS (REST adapter for osquery compatible with Vega)",
+  "bin" : { "osquery-rest-adapter" : "./server.js" },
+  "main": "server.js",
+  "repository": "https://github.com/dundalek/osquery-rest-adapter",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "fuzzy": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "vega",
+    "voyager",
+    "polestar",
+    "osquery",
+    "visualization",
+    "rest",
+    "adapter",
+    "os"
+  ],
+  "author": "Jakub Dundalek",
+  "license": "MIT"
+}
