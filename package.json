@@ -1,8 +1,10 @@
 {
   "name": "osquery-rest-adapter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Visualize information about your OS (REST adapter for osquery compatible with Vega)",
-  "bin" : { "osquery-rest-adapter" : "./server.js" },
+  "bin": {
+    "osquery-rest-adapter": "./server.js"
+  },
   "main": "server.js",
   "repository": "https://github.com/dundalek/osquery-rest-adapter",
   "dependencies": {
