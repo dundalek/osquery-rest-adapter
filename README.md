@@ -1,6 +1,6 @@
 # REST adapter for osquery compatible with Vega
 
-This adapter allows you to visualize information about your OS, for example see running processes, hardware devices or opened ports. It does that by  making [osquery](https://osquery.io/) data available as a REST endpoint. You can than browse and visualize the information using [Voyager](https://www.github.com/vega/voyager) or [Polestar](https://www.github.com/vega/polestar).
+This adapter allows you to visualize information about your OS, for example see running processes, hardware devices or opened ports. It does that by  making [osquery](https://osquery.io/) data available as a REST endpoint. You can then browse and visualize the information using [Voyager](https://www.github.com/vega/voyager) or [Polestar](https://www.github.com/vega/polestar).
 
 ![PCI devices visualized using Voyager](example.gif)
 
