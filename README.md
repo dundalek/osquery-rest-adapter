@@ -16,8 +16,7 @@ Use different port (default is 8080): `PORT=3003 osquery-rest-adapter`
 
 1. [Install osquery](https://osquery.io/downloads/) (you do not need to run `osqueryd`, only `osqueryi` needs to be available)
 2. Download [Voyager](https://www.github.com/vega/voyager) or [Polestar](https://www.github.com/vega/polestar)
-3. In your Voyager or Polestar source in the file `bower_components/vega-lite-ui/vlui.js` change value of `myriaRest`to `http://localhost:8080`
-4. After opening Voyager or Polestar, select a dataset using *Add a dataset from Myria*
+3. After opening Voyager or Polestar, add a dataset using *From Myria* tab. Put in `http://localhost:8080`, click update and select the table you want to explore.
 
 ## Standalone queries
 
@@ -42,8 +41,6 @@ You can use optional `q` parameter for search.
 In this example we fetch list of `usb_devices` in the system.
 
 `curl localhost:8080/dataset/user-local/program-osquery/relation-usb_devices/data`
-
-
 
 ## Technical details
 
